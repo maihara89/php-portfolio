@@ -172,6 +172,10 @@ textarea {
     /* display: block; */
 }
 
+#more{
+    cursor: pointer;
+}
+
 .posted {
     margin: 20px;
 }
