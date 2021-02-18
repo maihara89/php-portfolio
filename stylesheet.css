@@ -194,6 +194,10 @@ textarea {
     display: none;
 }
 
+#mask.hidden {
+    display: none;
+}
+
 #modal {
     background-color: #fff;
     width: 400px;
@@ -206,6 +210,10 @@ textarea {
     right: 0px;
     left: 0;
     margin: 0 auto;
+}
+
+#modal.hidden {
+    transform: translate(0, -500px);
 }
 
 #close {
