@@ -1,14 +1,18 @@
 'use strict';
 
 {
-    const open = document.getElementById('more');
-    const deleter = document.getElementById('eraser');
-    const modal = document.getElementById('eraser');
-    const close = document.getElementById('eraser');
-    const mask = document.getElementById('eraser');
+    const open = document.getElementById('open');
+    const closing = document.getElementById('closing');
+    const modal = document.getElementById('modal');
+    const mask = document.getElementById('mask');
 
     open.addEventListener('click',()=>{
+        modal.classList.remove('hidden');
+        mask.classList.remove('hidden');
+    });
+
+    getElementById('closing').addEventListener('click',()=>{
         modal.classList.add('hidden');
         mask.classList.add('hidden');
-    })
+    });
 }
