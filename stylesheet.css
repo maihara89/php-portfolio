@@ -197,7 +197,7 @@ textarea {
     /* display: block; */
 }
 
-#open {
+#open, #open2, #open3 {
     cursor: pointer;
 }
 
