@@ -15,4 +15,8 @@
         modal.classList.add('hidden');
         mask.classList.add('hidden');
     });
+
+    mask.addEventListener('click',()=>{
+        close.click();
+    })
 }
